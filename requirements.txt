@@ -1,0 +1,8 @@
+webapp2==2.5.2
+Flask==1.0.2
+google==2.0.1
+GoogleAppEngineCloudStorageClient==1.9.22.1
+numpy==1.15.2
+Pillow==5.2.0
+waitress==1.1.0
+opencv-contrib-python==3.4.3.18
