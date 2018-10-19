@@ -5,8 +5,9 @@ threadsafe: yes
 env_variables:
 
 handlers:
-- url: /blobstore.*
-  script: blobstore.app
-
 - url: /.*
   script: main.app
+
+libraries:
+- name: PIL
+  version: latest
