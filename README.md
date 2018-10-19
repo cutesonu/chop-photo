@@ -4,7 +4,9 @@
 The python script for chop cutting of image. and deploying on Google App Engine.
 Please check [Google App Engine Document](https://cloud.google.com/appengine/docs/standard/python/quickstart) the guide with Python27 environment.
 
-1. install the Google Cloud SDK on the local which will be needed to deploy the new version to the app. 
+## Steps
+
+1. install the Google Cloud SDK on the local which will be needed to deploy the new version to the app. (Follow the guide on the above link) 
 
 2. Download the project
     
