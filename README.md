@@ -14,8 +14,9 @@ Please check [Google App Engine Document](https://cloud.google.com/appengine/doc
 
 3. Install the dependencies
     
-    Move to the project directory 
-    
+    Move to the app folder of the project
+        
+        cd chop-photo/app
         pip install -r requirements.txt -t /lib
 
 4. Deploy the App
