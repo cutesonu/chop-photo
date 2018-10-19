@@ -1,5 +1,2 @@
 .idea
 venv/
-data/
-app/lib
-storage/lib

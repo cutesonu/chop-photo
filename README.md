@@ -8,7 +8,7 @@ Please check [Google App Engine Document](https://cloud.google.com/appengine/doc
 
 1. install the Google Cloud SDK on the local which will be needed to deploy the new version to the app. (Follow the guide on the above link) 
 
-2. Download the project
+2. Download the projectAnd then 
     
     git clone https://github.com/sonudesk/chop-photo.git
 
@@ -17,7 +17,13 @@ Please check [Google App Engine Document](https://cloud.google.com/appengine/doc
     Move to the app folder of the project
         
         cd chop-photo/app
-        pip install -r requirements.txt -t /lib
+        
+        pip2 install -r requirements.txt -t /lib
+        
+        pip2 install Pillow==5.3.0 -t /lib
+        pip2 install GoogleAppEngineCloudStorageClient==1.9.22.1 -t /lib
+        
+
 
 4. Deploy the App
     
@@ -25,3 +31,4 @@ Please check [Google App Engine Document](https://cloud.google.com/appengine/doc
        
     Then the new version script will be deployed on Cloud and then new service will run.  
     In addition to app engine, it is possible to manage the running services on AppEngine page of Google Cloud Console
+
